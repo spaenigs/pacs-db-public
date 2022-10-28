@@ -1,0 +1,94 @@
+:root {
+  font-family: Inter, Avenir, Helvetica, Arial, sans-serif;
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: 400;
+
+  color-scheme: light dark;
+  color: rgba(255, 255, 255, 0.87);
+  background-color: #242424;
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-text-size-adjust: 100%;
+  
+  /*--mdc-theme-primary: #ff3e00;*/
+  /*--mdc-theme-primary: #227ad6;*/
+  /*--mdc-theme-secondary: #676778;*/
+  /*--mdc-theme-background: #fff;*/
+  /*--mdc-theme-surface: #fff;*/
+  /*--mdc-theme-error: #b71c1c;*/
+  /*--mdc-theme-on-primary: #fff;*/
+  /*--mdc-theme-on-secondary: #fff;*/
+  /*--mdc-theme-on-surface: #000;*/
+  /*--mdc-theme-on-error: #fff;*/
+  /*--mdc-theme-text-primary-on-background: rgba(0, 0, 0, 0.87);*/
+  /*--mdc-theme-text-secondary-on-background: rgba(0, 0, 0, 0.54);*/
+  /*--mdc-theme-text-hint-on-background: rgba(0, 0, 0, 0.38);*/
+  /*--mdc-theme-text-disabled-on-background: rgba(0, 0, 0, 0.38);*/
+  /*--mdc-theme-text-icon-on-background: rgba(0, 0, 0, 0.38);*/
+  /*--mdc-theme-text-primary-on-light: rgba(0, 0, 0, 0.87);*/
+  /*--mdc-theme-text-secondary-on-light: rgba(0, 0, 0, 0.54);*/
+  /*--mdc-theme-text-hint-on-light: rgba(0, 0, 0, 0.38);*/
+  /*--mdc-theme-text-disabled-on-light: rgba(0, 0, 0, 0.38);*/
+  /*--mdc-theme-text-icon-on-light: rgba(0, 0, 0, 0.38);*/
+  /*--mdc-theme-text-primary-on-dark: white;*/
+  /*--mdc-theme-text-secondary-on-dark: rgba(255, 255, 255, 0.7);*/
+  /*--mdc-theme-text-hint-on-dark: rgba(255, 255, 255, 0.5);*/
+  /*--mdc-theme-text-disabled-on-dark: rgba(255, 255, 255, 0.5);*/
+  /*--mdc-theme-text-icon-on-dark: rgba(255, 255, 255, 0.5);*/
+}
+
+/*.mdc-deprecated-list-item__graphic {*/
+/*  color: rgba(var(--mdc-theme-primary), .87);*/
+/*}*/
+
+
+a {
+  font-weight: 500;
+  color: #646cff;
+  text-decoration: inherit;
+}
+a:hover {
+  color: #535bf2;
+}
+
+body {
+  margin: 0;
+  display: flex;
+  place-items: start;
+  min-width: 320px;
+  min-height: 100vh;
+}
+
+h1 {
+  font-size: 3.2em;
+  line-height: 1.1;
+}
+
+.card {
+  padding: 2em;
+}
+
+#app {
+  width: 100%;
+  /*max-width: 1280px;*/
+  /*margin: 0 auto;*/
+  /*padding: 2rem;*/
+  text-align: center;
+}
+
+@media (prefers-color-scheme: light) {
+  :root {
+    color: #213547;
+    background-color: #ffffff;
+  }
+  a:hover {
+    color: #747bff;
+  }
+  button {
+    background-color: #f9f9f9;
+  }
+}

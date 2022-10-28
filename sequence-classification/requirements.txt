@@ -1,0 +1,15 @@
+fastapi==0.81.0
+pydantic==1.10.1
+uvicorn==0.18.3
+pymongo==4.2.0
+pandas==1.4.4
+orjson==3.8.0
+scikit-learn==1.1.2
+altair==4.2.0
+pydicom==2.3.0
+pynetdicom==2.0.2
+more-itertools==8.14.0
+matplotlib
+imbalanced-learn==0.9.1
+python-dotenv==0.21.0
+

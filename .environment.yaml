@@ -1,0 +1,22 @@
+name: pacs-db
+channels:
+  - anaconda
+dependencies:
+  - python=3.7
+  - pip=21.2.2
+  - pip:
+    - altair==4.1.0
+    - apache-airflow==2.3.2
+    - apache-airflow-client==2.3.0
+    - dicom-parser==1.2.3
+    - more-itertools==8.12.0
+    - python-dotenv==0.21.0
+    - fastapi==0.81.0
+    - pydantic==1.10.1
+    - uvicorn==0.18.3
+    - pymongo==4.2.0
+    - pandas==1.4.4
+    - orjson==3.8.0
+    - pydicom==2.3.0
+    - pynetdicom==2.0.2
+    - scikit-learn==1.0

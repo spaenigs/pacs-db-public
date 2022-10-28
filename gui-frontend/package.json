@@ -1,0 +1,35 @@
+{
+  "name": "svelte-app",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite --host 0.0.0.0",
+    "build": "vite build",
+    "preview": "vite preview",
+    "check": "svelte-check --tsconfig ./tsconfig.json"
+  },
+  "devDependencies": {
+    "@types/d3": "^7.4.0",
+    "@sveltejs/vite-plugin-svelte": "^1.0.1",
+    "@tsconfig/svelte": "^3.0.0",
+    "@types/luxon": "^3.0.0",
+    "@types/tabulator-tables": "^5.3.0",
+    "d3": "^7.6.1",
+    "svelte": "^3.49.0",
+    "svelte-check": "^2.8.0",
+    "svelte-preprocess": "^4.10.7",
+    "tslib": "^2.4.0",
+    "typescript": "^4.6.4",
+    "vite": "^3.0.0",
+    "mongodb": "^4.8.1",
+    "dotenv": "^16.0.1",
+    "svelte-json-tree": "^1.0.0",
+    "svelte-material-ui": "^6.0.0",
+    "luxon": "^3.0.3",
+    "tabulator-tables": "^5.3.4"
+  },
+  "dependencies": {
+    "svelte-material-ui": "^6.0.0"
+  }
+}

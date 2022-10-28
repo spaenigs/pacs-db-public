@@ -1,0 +1,5 @@
+airflow/logs/
+sequence-classification/data/
+.vscode
+*.csv
+.outline.drawio.png
