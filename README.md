@@ -59,7 +59,7 @@ by executing `python ./query_pacs.py`. See the
 the PatientID and the admission time at hospital as reference. The information is parsed from the 
 `swiss_stroke_registry` collection (see the example below). Other entries are optional.
 
-```json
+```
 {
     "PatientID": string,  
     "_SSRID": string,
